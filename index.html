@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple.com</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Top Bar -->
+    <div class="bg-light border-bottom py-2">
+        <div class="container d-flex justify-content-between align-items-center flex-wrap">
+            <div class="text-muted small">
+                Choose another country or region to see content specific to your location.
+            </div>
+            <div class="d-flex align-items-center gap-2">
+                <select class="form-select form-select-sm w-auto">
+                    <option selected>Egypt</option>
+                    <option>USA</option>
+                    <option>Fr</option>
+                </select>
+                <button class="btn btn-dark btn-sm px-3">Continue</button>
+                <button class="btn btn-light btn-sm border-0 fs-5">&times;</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg bg-light border-bottom sticky-top py-1">
+        <div class="container">
+            <a class="navbar-brand me-4" href="#">
+                <img src="assets/logo.png" height="20" alt="Apple logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav mx-auto gap-4 text-center">
+                    <li class="nav-item"><a class="nav-link text-dark small" href="#">Store</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark small" href="#">Mac</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark small" href="#">iPad</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark small" href="#">iPhone</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark small" href="#">Watch</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark small" href="#">Vision</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark small" href="#">AirPods</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark small" href="#">TV & Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark small" href="#">Entertainment</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark small" href="#">Accessories</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark small" href="#">Support</a></li>
+                </ul>
+            </div>
+            <div class="d-flex align-items-center gap-4 justify-content-center mt-3 mt-lg-0">
+                <a href="#"><img src="assets/search.png" height="16" alt="search"></a>
+                <a href="#"><img src="assets/shopping bag.png" height="16" alt="shopping bag"></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="text-center hero-section">
+        <div class="container">
+            <h1 class="text-dark">College, sorted.</h1>
+            <p class="mt-2">
+                Get a gift card from $100 to $150* when you buy Mac or iPad with education savings.
+            </p>
+            <a href="#" class="btn btn-primary rounded-pill mt-1">Shop</a>
+            <div class="mt-4">
+                <img src="assets/start.png" class="img-fluid d-block mx-auto hero-img" alt="College">
+            </div>
+        </div>
+    </section>
+
+    <section class="text-center hero-section">
+        <div class="container">
+            <h1 class="text-dark">iPhone</h1>
+            <p class="mt-1">Meet the latest iPhone lineup.</p>
+            <div class="d-flex justify-content-center gap-2 mt-2">
+                <a href="#" class="btn btn-primary">Learn more</a>
+                <a href="#" class="btn btn-outline-primary">Shop iPhone</a>
+            </div>
+            <div class="mt-4">
+                <img src="assets/iphone.png" class="img-fluid d-block mx-auto hero-img" alt="iPhone">
+            </div>
+        </div>
+    </section>
+
+    <section class="text-center hero-section" style="background: linear-gradient(180deg, #e3eff6 0%, #ffffff 100%);">
+        <div class="container">
+            <h1 class="text-dark">MacBook Air</h1>
+            <p class="mt-1">Now supercharged by M5.</p>
+            <div class="d-flex justify-content-center gap-2 mt-2">
+                <a href="#" class="btn btn-primary">Learn more</a>
+                <a href="#" class="btn btn-outline-primary">Buy</a>
+            </div>
+            <div class="mt-4">
+                <img src="assets/mac.png" class="img-fluid d-block mx-auto hero-img" alt="MacBook Air">
+            </div>
+        </div>
+    </section>
+
+    <!-- Grid -->
+    <div class="container-fluid px-3 py-2 bg-white">
+        <div class="row g-3">
+
+            <div class="col-md-6">
+                <div class="apple-grid-card text-center"
+                    style="background: linear-gradient(180deg, #dbebf4 0%, #f4f8fb 100%);">
+                    <div>
+                        <h3 class="text-dark">iPad <span class="fw-normal fst-italic text-primary">air</span></h3>
+                        <p class="text-secondary">Now supercharged by M4.</p>
+                        <div class="d-flex justify-content-center gap-2 mb-3">
+                            <a href="#" class="btn btn-primary">Learn more</a>
+                            <a href="#" class="btn btn-outline-primary">Buy</a>
+                        </div>
+                    </div>
+                    <img src="assets/ipad.png" class="img-fluid mx-auto mt-auto d-block card-img" alt="iPad Air">
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="apple-grid-card text-center bg-black text-white">
+                    <div>
+                        <h3>MacBook Pro</h3>
+                        <p class="text-secondary">Now with M5, M5 Pro, and M5 Max.</p>
+                        <div class="d-flex justify-content-center gap-2 mb-3">
+                            <a href="#" class="btn btn-primary">Learn more</a>
+                            <a href="#" class="btn btn-outline-primary">Buy</a>
+                        </div>
+                    </div>
+                    <img src="assets/comp.png" class="img-fluid mx-auto mt-auto d-block card-img" alt="MacBook Pro">
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="apple-grid-card text-center" style="background-color: #f5f5f7;">
+                    <div>
+                        <h4 class="d-flex align-items-center justify-content-center gap-1 text-dark">
+                            <img src="assets/logo.png" height="20" alt="Apple logo"> WATCH SERIES 11</h4>
+                        <p class="text-secondary">The ultimate way to watch your health.</p>
+                        <div class="d-flex justify-content-center gap-2 mb-3">
+                            <a href="#" class="btn btn-primary">Learn more</a>
+                            <a href="#" class="btn btn-outline-primary">Buy</a>
+                        </div>
+                    </div>
+                    <img src="assets/watch.png" class="img-fluid mx-auto mt-auto d-block card-img" alt="Apple Watch">
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="apple-grid-card text-center bg-black text-white">
+                    <div>
+                        <h3>iPad Pro</h3>
+                        <p class="text-secondary">Advanced AI performance and game-changing capabilities.</p>
+                        <div class="d-flex justify-content-center gap-2 mb-3">
+                            <a href="#" class="btn btn-primary">Learn more</a>
+                            <a href="#" class="btn btn-outline-primary">Buy</a>
+                        </div>
+                    </div>
+                    <img src="assets/screen.png" class="img-fluid mx-auto mt-auto d-block card-img" alt="iPad Pro">
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="apple-grid-card text-center" style="background-color: #f5f5f7;">
+                    <div>
+                        <h4 class="d-flex align-items-center justify-content-center gap-1 text-dark">
+                            <img src="assets/logo.png" height="20" alt="Apple logo"> Trade In
+                        </h4>
+                        <p class="text-secondary">Get up to $180-$650 in credit when you trade in iPhone 13 or higher.
+                        </p>
+                        <div class="d-flex justify-content-center mb-3">
+                            <a href="#" class="btn btn-primary">Get your estimate</a>
+                        </div>
+                    </div>
+                    <img src="assets/phone.png" class="img-fluid mx-auto mt-auto d-block card-img" alt="Trade In">
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="apple-grid-card text-center" style="background-color: #f5f5f7;">
+                    <div>
+                        <h4 class="d-flex align-items-center justify-content-center gap-1 text-dark">
+                            <img src="assets/logo.png" height="20" alt="Apple logo"> Card
+                        </h4>
+                        <p class="text-secondary">Get up to 3% Daily Cash back with every purchase.</p>
+                        <div class="d-flex justify-content-center gap-2 mb-3">
+                            <a href="#" class="btn btn-primary">Learn more</a>
+                            <a href="#" class="btn btn-outline-primary">Apply now</a>
+                        </div>
+                    </div>
+                    <img src="assets/card.png" class="img-fluid mx-auto mt-auto d-block card-img" alt="Apple Card">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="text-center py-4 mt-4">
+        <h2 class="display-6 fw-semibold text-dark">Endless entertainment</h2>
+    </div>
+
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <div class="container d-flex justify-content-center">
+                    <div class="tv-card big position-relative">
+                        <img src="assets/2500x1336sr (1).jpg" alt="Media 1">
+                        <div class="tv-overlay">
+                            <button class="btn">Stream now</button>
+                            <h2>Sci-Fi . The truth lies in the past.</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="container d-flex justify-content-center">
+                    <div class="tv-card big position-relative">
+                        <img src="assets/2500x1336sr (2).jpg" alt="Media 2">
+                        <div class="tv-overlay">
+                            <button class="btn">Watch now</button>
+                            <h2>Comedy. New season.</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="container d-flex justify-content-center">
+                    <div class="tv-card big position-relative">
+                        <img src="assets/2500x1336sr (3).jpg" alt="Media 3">
+                        <div class="tv-overlay">
+                            <button class="btn">Stream now</button>
+                            <h2>Watch every club, every match, live-all season long.</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="container d-flex justify-content-center">
+                    <div class="tv-card big position-relative">
+                        <img src="assets/2500x1336sr (4).jpg" alt="Media 4">
+                        <div class="tv-overlay">
+                            <button class="btn">Stream now</button>
+                            <h2>Mystery.19 Emmy Nominations Including Best Comedy.</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="container d-flex justify-content-center">
+                    <div class="tv-card big position-relative">
+                        <img src="assets/2500x1336sr (5).jpg" alt="Media 5">
+                        <div class="tv-overlay">
+                            <button class="btn">Stream now</button>
+                            <h2>Live MLB games,every Friday.</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="container d-flex justify-content-center">
+                    <div class="tv-card big position-relative">
+                        <img src="assets/2500x1336sr (6).jpg" alt="Media 6">
+                        <div class="tv-overlay">
+                            <button class="btn">Stream now</button>
+                            <h2>Drama.18 Emmy Nominations Including Best Drama.</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="container d-flex justify-content-center">
+                    <div class="tv-card big position-relative">
+                        <img src="assets/2500x1336sr (7).jpg" alt="Media 7">
+                        <div class="tv-overlay">
+                            <button class="btn">Stream now</button>
+                            <h2>Every Grand Prix,live and on damand-all in one place,all year long.</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="container d-flex justify-content-center">
+                    <div class="tv-card big position-relative">
+                        <img src="assets/2500x1336sr.jpg" alt="Media 8">
+                        <div class="tv-overlay">
+                            <button class="btn">Stream now</button>
+                            <h2>Action.Anya Taylor-Joy is a grifter for her life after a heist goes sideways.</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="carousel-indicators position-relative mt-4">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="7"></button>
+        </div>
+
+    </div>
+
+    <!-- Mini Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+    <div class="tv-mini-scroll my-4">
+        <div class="mini-card" data-bs-target="#demo" data-bs-slide-to="0">
+            <img src="assets/1t.jpg" alt="Mini 1">
+            <button class="mini-btn">Watch now</button>
+        </div>
+        <div class="mini-card" data-bs-target="#demo" data-bs-slide-to="1">
+            <img src="assets/2t.jpg" alt="Mini 2">
+            <button class="mini-btn">Play now</button>
+        </div>
+        <div class="mini-card" data-bs-target="#demo" data-bs-slide-to="2">
+            <img src="assets/3t.jpg" alt="Mini">
+            <button class="mini-btn">Listen</button>
+        </div>
+        <div class="mini-card" data-bs-target="#demo" data-bs-slide-to="3">
+            <img src="assets/4t.jpg" alt="Mini">
+            <button class="mini-btn">Watch now</button>
+        </div>
+        <div class="mini-card" data-bs-target="#demo" data-bs-slide-to="4">
+            <img src="assets/5t.jpg" alt="Mini">
+            <button class="mini-btn">Play now</button>
+        </div>
+        <div class="mini-card" data-bs-target="#demo" data-bs-slide-to="5">
+            <img src="assets/6t.jpg" alt="Mini">
+            <button class="mini-btn">Watch now</button>
+        </div>
+        <div class="mini-card" data-bs-target="#demo" data-bs-slide-to="6">
+            <img src="assets/7t.jpg" alt="Mini">
+            <button class="mini-btn">Watch now</button>
+        </div>
+        <div class="mini-card" data-bs-target="#demo" data-bs-slide-to="7">
+            <img src="assets/8t.jpg" alt="Mini">
+            <button class="mini-btn">Watch now</button>
+        </div>
+    </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="apple-footer py-4">
+        <div class="container">
+            <p>
+                * Available for Qualified Purchasers only. Qualified Purchasers receive an Apple Gift Card when they
+                purchase an eligible Mac or iPad (“Eligible Product”) at a Qualifying Location through August 27,
+                2026.
+                Gift card values may vary by Eligible Product. Customers will receive a discount equal to the value
+                of
+                the Apple Gift Card off the price of the Eligible Product, but will be charged for all items in
+                their
+                cart, including the Apple Gift Card. Only one Apple Gift Card per Eligible Product per Qualified
+                Purchaser. Offer subject to availability. While supplies last. Additional restrictions apply. View
+                full
+                offer terms <a href="#">here</a>.
+            </p>
+
+            <p>
+                1. Trade-in values will vary based on the condition, year, and configuration of your eligible
+                trade-in
+                device. Not all devices are eligible for credit. You must be at least the age of majority to be
+                eligible
+                to trade in for credit or for an Apple Gift Card. Trade-in value may be applied toward qualifying
+                new
+                device purchase, or added to an Apple Gift Card. Actual value awarded is based on receipt of a
+                qualifying device matching the description provided when estimate was made. Sales tax may be
+                assessed on
+                full value of a new device purchase. In-store trade-in requires presentation of a valid photo ID
+                (local
+                law may require saving this information). Offer may not be available in all stores and may vary
+                between
+                in-store and online trade-in. Some stores may have additional requirements. Apple or its trade-in
+                partners reserve the right to refuse, cancel, or limit quantity of any trade-in transaction for any
+                reason. More details are available from Apple's trade-in partner for trade-in and recycling of
+                eligible
+                devices. Restrictions and limitations may apply.
+            </p>
+
+            <p>
+                To access and use all Apple Card features and products available only to Apple Card users, you must
+                add
+                Apple Card to Wallet on an iPhone or iPad that supports and has the latest version of iOS or iPadOS.
+                Apple Card is subject to credit approval, available only for qualifying applicants in the United
+                States,
+                and issued by Goldman Sachs Bank USA, Salt Lake City Branch.
+            </p>
+
+            <p>
+                Apple Payments Services LLC, a subsidiary of Apple Inc., is a service provider of Goldman Sachs Bank
+                USA
+                for Apple Card and Savings accounts. Neither Apple Inc. nor Apple Payments Services LLC is a bank.
+            </p>
+
+            <p>
+                All communications from Apple and Goldman Sachs Bank USA about Apple Card (including transactional
+                and
+                marketing communications) and customer service support are available in English. Certain
+                communications
+                about Apple Card can be viewed in another language depending on your device language settings. If
+                you
+                reside in the U.S. Virgin Islands, American Samoa, Guam, Northern Mariana Islands, or U.S. Minor
+                Outlying Islands, please call Goldman Sachs at 877-255-5923 with questions about Apple Card.
+            </p>
+
+            <p>
+                Learn more about how Apple Card applications are evaluated at <a
+                    href="#">support.apple.com/kb/HT209218</a>.
+            </p>
+
+            <p>
+                A subscription is required for Apple Arcade, Apple Fitness+, Apple Music, and Apple TV.
+            </p>
+
+            <p>
+                Features are subject to change. Some features, applications, and services may not be available in
+                all
+                regions or all languages.
+            </p>
+
+            <hr class="my-4">
+        </div>
+    </div>
+
+    <!-- Main Footer Links -->
+    <footer class="apple-footer pb-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-6 col-md-2">
+                    <h6>Shop and Learn</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Store</a></li>
+                        <li><a href="#">Mac</a></li>
+                        <li><a href="#">iPad</a></li>
+                        <li><a href="#">iPhone</a></li>
+                        <li><a href="#">Watch</a></li>
+                        <li><a href="#">Vision</a></li>
+                        <li><a href="#">AirPods</a></li>
+                        <li><a href="#">TV & Home</a></li>
+                        <li><a href="#">AirTag</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Gift Cards</a></li>
+                    </ul>
+                    <h6 class="mt-4">Apple Wallet</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Wallet</a></li>
+                        <li><a href="#">Apple Card</a></li>
+                        <li><a href="#">Apple Pay</a></li>
+                        <li><a href="#">Apple Cash</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2">
+                    <h6>Account</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Manage Your Apple Account</a></li>
+                        <li><a href="#">Apple Store Account</a></li>
+                        <li><a href="#">iCloud.com</a></li>
+                    </ul>
+                    <h6 class="mt-4">Entertainment</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Apple One</a></li>
+                        <li><a href="#">Apple TV+</a></li>
+                        <li><a href="#">Apple Music</a></li>
+                        <li><a href="#">Apple Arcade</a></li>
+                        <li><a href="#">Apple Fitness+</a></li>
+                        <li><a href="#">Apple News+</a></li>
+                        <li><a href="#">Apple Podcasts</a></li>
+                        <li><a href="#">Apple Books</a></li>
+                        <li><a href="#">App Store</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2">
+                    <h6>Apple Store</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Find a Store</a></li>
+                        <li><a href="#">Genius Bar</a></li>
+                        <li><a href="#">Today at Apple</a></li>
+                        <li><a href="#">Group Reservations</a></li>
+                        <li><a href="#">Apple Camp</a></li>
+                        <li><a href="#">Apple Store App</a></li>
+                        <li><a href="#">Certified Refurbished</a></li>
+                        <li><a href="#">Apple Trade In</a></li>
+                        <li><a href="#">Financing</a></li>
+                        <li><a href="#">Carrier Deals at Apple</a></li>
+                        <li><a href="#">Order Status</a></li>
+                        <li><a href="#">Shopping Help</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2">
+                    <h6>For Business</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Apple and Business</a></li>
+                        <li><a href="#">Shop for Business</a></li>
+                    </ul>
+                    <h6 class="mt-4">For Education</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Apple and Education</a></li>
+                        <li><a href="#">Shop for K-12</a></li>
+                        <li><a href="#">Shop for College</a></li>
+                    </ul>
+                    <h6 class="mt-4">For Healthcare</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Apple and Healthcare</a></li>
+                    </ul>
+                    <h6 class="mt-4">For Government</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Apple and Government</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2">
+                    <h6>Apple Values</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Accessibility</a></li>
+                        <li><a href="#">Education</a></li>
+                        <li><a href="#">Environment</a></li>
+                        <li><a href="#">Inclusion and Diversity</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Racial Equity and Justice</a></li>
+                        <li><a href="#">Supply Chain Innovation</a></li>
+                    </ul>
+                    <h6 class="mt-4">About Apple</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Newsroom</a></li>
+                        <li><a href="#">Apple Leadership</a></li>
+                        <li><a href="#">Career Opportunities</a></li>
+                        <li><a href="#">Investors</a></li>
+                        <li><a href="#">Ethics & Compliance</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Contact Apple</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-shop mt-4 pt-2">
+                More ways to shop: <a href="#">Find an Apple Store</a> or <a href="#">other retailer</a> near you.
+                Orcall 1-800-MY-APPLE.
+            </div>
+
+            <hr class="my-3">
+
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center small text-muted">
+                <div class="mb-2 mb-md-0">
+                    Copyright © 2026 Apple Inc. All rights reserved.
+                </div>
+                <div class="d-flex gap-2 flex-wrap justify-content-center mb-2 mb-md-0">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Sales and Refunds</a>
+                    <a href="#">Legal</a>
+                    <a href="#">Site Map</a>
+                </div>
+                <div>United States</div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
